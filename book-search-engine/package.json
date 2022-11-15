@@ -9,7 +9,7 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
-    "engines": {
+  "engines": {
     "node": "14.x"
   },
   "keywords": [],
@@ -19,6 +19,8 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "@apollo/client": "^3.6.5"
+    "@apollo/client": "^3.6.5",
+    "graphql": "^16.6.0",
+    "react-hooks": "^1.0.1"
   }
 }
